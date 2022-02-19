@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.1.0-dist/css/bootstrap.min.css"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/b2c6d2915b.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="header" class="vh-100">
+      <nav
+        class="navbar w-100 navbar-expand-lg navbar-light bg-secondary position-fixed"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.html"
+            ><img src="./Image/smalls.png" class="w-25" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0 fs-4">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="home.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Donate">Donate</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav mt-auto mb-2 mb-lg-0 text-black fs-4">
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#"><i class="fab fa-linkedin"></i></a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#"><i class="fab fa-facebook"></i></a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#"><i class="fab fa-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div
+        class="layer w-100 h-100 d-flex justify-content-center align-items-center"
+      >
+        <div class="contain text-center"></div>
+      </div>
+    </section>
+    <section id="#About" class="About pt-5 pb-4">
+      <div class="About-content container row align-items-center m-auto">
+        <div
+          class="About-paragraph bg-white col-lg-6 shadow-sm p-3 mb-5 rounded"
+        >
+          <div>
+            <p class="fs-5">
+              <span class="fs-3"> Nigeria</span> is among the top five nations
+              in the world of out-of-school children of primary and secondary
+              school age. Even more, 34% of children drop out of school before
+              upper-primary school. Due to a lack of access, affordability, and
+              awareness, children in rural areas are unable to receive the
+              education to escape poverty. Helpers Social Development Foundation
+              is going the mile to fulfill our mission as a charity and opening
+              a nursery and primary school! This project is meant to benefit
+              families that live in the remote area of Oji River. The locality
+              doesn’t have piped water or electricity, so families don’t usually
+              prioritize education. However, we at HSDF know that in every
+              underprivileged child there lies the potential to finally break
+              the cycle of poverty.
+            </p>
+          </div>
+        </div>
+        <div class="About-img col-lg-6 text-center">
+          <div class="img-fluid">
+            <img class="w-50" src="./Image/Chargie-Donate-1.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="#Donate" class="Donate container pt-5 pb-5">
+      <form class="text-center">
+        <script
+          src="https://checkout.razorpay.com/v1/payment-button.js"
+          data-payment_button_id="pl_IxbKCyrNm9Bbrf"
+          async
+        ></script>
+      </form>
+    </section>
+
+    <script src="./js/content.js"></script>
+    <script src="./Jquery/jquery-3.4.1.min.js"></script>
+    <script src="./bootstrap-5.1.0-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.nav-link {
+  color: white !important;
+}
+.nav-link:hover {
+  color: #ffd600 !important;
+  transition: ease-in-out 0.3s;
+}
+#header {
+  background: url("./Image/pexels-photo-7345444.jpeg") center center/cover
+    no-repeat;
+}
+#header .layer {
+  background: rgba(0, 0, 0, 0.3);
+}
+#head-content {
+  padding-bottom: 500px;
+  color: #fff;
+}
+.About-paragraph p {
+  color: #4e4e4e;
+}
+.About {
+  background-color: #f5f5f5;
+}
